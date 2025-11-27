@@ -228,7 +228,7 @@ header > h1 {
 }
 
 .result {
-    font-size: 60px;
+    font-size: 50px;
     color: var(--text-primary);
     text-align: center;
     font-weight: 800;
@@ -358,4 +358,19 @@ header > h1 {
     .choice::before {
         background: rgba(255, 255, 255, 0.3);
     }
+}
+
+/* --- RPS Hand Emoji Positioning --- */
+#user-emoji, #bot-emoji {
+    font-size: 25px;
+    position: absolute;
+    bottom: 10px;
+}
+
+#user-emoji {
+    left: 5px;   /* left side under USER */
+}
+
+#bot-emoji {
+    right: 5px;  /* right side under BOT */
 }
