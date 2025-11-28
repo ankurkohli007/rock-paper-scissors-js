@@ -630,3 +630,37 @@ body.playing {
         padding: 3px 10px;
     }
 }
+
+.footer-buttons button {
+    padding: 8px 18px;
+    margin: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid #fff3;
+    background: #222;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-buttons button.active-theme {
+    background: #ffcc00;
+    color: black;
+    border-color: #ffcc00;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;          /* Centers text */
+    display: flex;               /* Flexbox layout */
+    flex-direction: column;      /* Stack items vertically */
+    align-items: center;         /* Center horizontally */
+    justify-content: center;     /* Center vertically (if height increases) */
+    margin-top: 40px;
+}
+
+.footer-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;                    /* Space between buttons */
+    justify-content: center;     /* Center the buttons */
+}
