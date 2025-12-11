@@ -20,9 +20,7 @@ The game runs entirely in the browser — no libraries or build tools are requir
 
 ---
 
-## 🚀 Live Demo
-
-## 🚀 Live Demo of Portfolio
+## 🚀 Live Demo of Game
 Check out the live version of this game: [Click here to play game](https://ankurkohli007.github.io/rock-paper-scissors-js/)
 ---
 
